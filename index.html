@@ -1,1 +1,158 @@
-<h1>Hello!</h1>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Stanford University CS422: Interactive and Embodied Learning</title>
+
+  <!-- bootstrap -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
+
+  <!-- Google fonts -->
+  <link href='http://fonts.googleapis.com/css?family=Roboto:400,300' rel='stylesheet' type='text/css'>
+
+  <link rel="stylesheet" type="text/css" href="style.css" />
+
+ </head>
+
+<div id="header">
+
+    <a href="http://stanford.edu/">
+    <img src="images/stanfordlogo.jpg" style="height:50px; float: right; margin-right: 20px;"><br>
+  </a>
+  <br>
+ <h1>EDUC463: Computer Vision for Education and Social Science Research</h1>
+  <div class='text-center'>
+    <h3>Spring 2021</h3>
+  </div>
+  <div class='text-center'>
+    <h3>Instructors: Nick Haber (lead) and Victoria Docherty (TA)
+    </h3>
+  <div class='text-center'>
+    <h3>Meeting times: Mo, We 8:30 - 9:50 AM (Zoom details forthcoming on Canvas page)
+    </h3>
+  </div>
+
+
+
+  <div style="clear:both;"></div>
+</div>
+
+<div id="teaser">
+	<img src="images/igibson_sample.png" alt="Summary image here" style="width:60%;"
+	 class = "center">
+
+</div>
+
+<div class="sechighlight">
+<div class="container sec">
+  <h2>Course Description</h2>
+
+  <div id="coursedesc">
+<p>Computer vision -- the study of how to design artificial systems that can perform high-level tasks related to image or video data (e.g. recognizing and locating objects in images and behaviors in videos, or generating photorealistic, imagined data) -- has seen dramatic successes in recent years. In this course, we seek to give education and social science researchers the know-how needed to apply cutting edge computer vision algorithms in their work as well as an opportunity to workshop applications in their domains of interest. Particular application domains of interest include (1) building computer vision-powered tools which can be applied in educational settings, and (2) the analysis of human behavioral data. However, this course is meant to be useful for a wide variety of use cases, and aspects of it can be tailored to individual interest. Students will complete assignments which walk them through the basics of applying, troubleshooting, and adapting existing algorithms, as well as a project component where they will apply such a technique in a domain of their choosing. Prerequisite: python familiarity and some experience with data.</p>
+
+<p>This course is intended for students interested in computer vision applications but lacking extensive background in computer science (e.g. have some basic proficiency coding, but are not yet ready to take cs231n). The course will feature a heavy project component in which the student will work with the instructors to workshop a computer vision technique on an application relevant to their own research.</p>
+  </div>
+</div>
+</div>
+
+<div class="container sec">
+  <h2>Prerequisites</h2>
+  <p>This course is intended to attract a broad range of students interested in applying these methods, and in particular students who do not have significant experience taking computer science courses related to computer vision. Project milestones will be tailored so as to be appropriate for each student’s background.
+
+  <ul>
+    <li><span class="spanh">Students must be familiar with Python and proficient in some language.</li>
+    <li><span class="spanh">Students must have some experience performing statistical analysis on data.</li>
+    <li><span class="spanh">A working knowledge in linear algebra, calculus, data science, and statistics (MATH 19, 41, or 51, EDUC400b, 423, 423a, or equivalent) is useful but not strictly required.</li>
+  </ul>
+</div>
+
+<div class="sechighlight">
+<div class="container sec">
+  <div class="row">
+    <div class="col-md-4">
+      <h2>Class time</h2>
+      Spring quarter, 2021<br>
+      Mo, We 8:30 - 9:50a
+    </div>
+    <div class="col-md-4">
+      <h2>Office hours</h2>
+      By appointment<br>
+      <a href="mailto:nhaber@stanford.edu">nhaber@stanford.edu</a>, <a href="mailto:vdoch@stanford.edu">vdoch@stanford.edu</a>
+    </div>
+    <div class="col-md-4">
+      <h2>Forum, Zoom link, project submissions</h2>
+        Visit our <a href="https://canvas.stanford.edu/courses/138213" target="_blank" rel="noopener noreferrer">Canvas page.</a>
+    </div>
+<!--     <div class="col-md-4">
+      <h2>Readings</h2>
+      Detailed <a href="readings.html">readings & syllabus</a> page.<br>
+      Required readings in <b>bold</b>.<br>
+      Contents subject to change.
+    </div>
+ -->    <div class="col-md-4">
+      <h2>Grading</h2>
+      Project 50%<br>
+      Assignments 20%<br>
+      Discussion participation 30%
+    </div>
+<!--     <div class="col-md-4">
+      <h2>Resources</h2>
+    <a href="talk_faq.html">Hints/expectations</a> for giving presentations.<br>
+    <a href="projects.html">Project timeline</a>.<br>
+    Have a look at some helpful <a href="resources.html">resources</a><br>
+    for relevant blog posts,<br> environments, and codebases.<br>
+    This will grow throughout the quarter<br> as we find new ones!
+    </div>
+ -->  </div>
+</div>
+</div>
+
+<div class="container sec">
+  <h2>Student responsibilities</h2>
+
+  <div id="studentresp">
+<p>Students will complete assignments that walk them through the basics of the above learning objectives. In addition, each student will complete a project in which they will apply computer vision to a domain of their choosing.
+</p>
+
+<p>For the project, students will scope a potential application of computer vision of interest to them (ideally, applied to their research!). The end deliverable will consist of both (1) a brief writeup of background and motivation for the application, a review of the technique used, and a summary of results (a product ideal for a workshop or conference submission), and (2) a working demonstration of the application (e.g. using a Jupyter notebook). The project has several milestones:
+</p>
+  <ul>
+    <li><span class="spanh">April 15: brief project scoping description</li>
+    <li><span class="spanh">Week of May 10: project check-in with instructor.</li>
+    <li><span class="spanh">May 27: Project reports due.</li>
+    <li><span class="spanh">Week of May 31: Project presentations.</li>
+  </ul>
+
+
+
+<p>Students will produce a 6 page research proposal exploring a feasible next direction in depth, or some working demonstration of an idea. These will be “peer reviewed” by fellow students. For details, see our <a href="projects.html">project timeline</a>.</p>
+</div>
+</div>
+
+<div class="sechighlight">
+<div class="container sec">
+  <h2>Detailed syllabus</h2>
+  <p>Forthcoming!</p>
+</div>
+</div>
+
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
