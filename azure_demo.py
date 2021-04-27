@@ -1,3 +1,7 @@
+print('Importing modules and starting trainer...')
+
+
+
 #Import various tools
 from azure.cognitiveservices.vision.customvision.training import CustomVisionTrainingClient
 from azure.cognitiveservices.vision.customvision.prediction import CustomVisionPredictionClient
